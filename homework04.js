@@ -1,8 +1,5 @@
 const userName = prompt("Enter your name.");
-const firstLetter = userName.slice(0,1);
-const firstUppercase = firstLetter.toUpperCase();
 
-const restOfTheName = userName.slice(1,userName.length);
-const restOfTheNameLowercase = restOfTheName.toLowerCase();
+const userNameLowercase = `${userName.slice(0,1).toLowerCase() + userName.slice(1)}`;
 
-alert(`Hello ${firstUppercase + restOfTheNameLowercase}!`);
+alert(userNameLowercase);
