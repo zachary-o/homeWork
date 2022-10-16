@@ -1,7 +1,5 @@
-const numOne = prompt("Enter the first number");
+const userName = prompt("Enter your name.");
 
-const numTwo = prompt("Enter the second number");
+const userNameLowercase = `${userName.slice(0,1).toLowerCase() + userName.slice(1)}`;
 
-const total = parseInt(numOne) + parseInt(numTwo);
-
-console.log(typeof total);
+alert(userNameLowercase);

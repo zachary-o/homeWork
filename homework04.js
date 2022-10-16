@@ -1,5 +1,3 @@
-const userName = prompt("Enter your name.");
+const message = prompt("Enter your message");
 
-const userNameLowercase = `${userName.slice(0,1).toLowerCase() + userName.slice(1)}`;
-
-alert(userNameLowercase);
+console.log(message.includes("free"));
