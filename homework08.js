@@ -1,6 +1,6 @@
 
 //v1
-var age = prompt("Enter your age");
+let age = prompt("Enter your age");
 
 if (age >= 14 && age <= 90) {
      console.log(true);
@@ -9,13 +9,13 @@ if (age >= 14 && age <= 90) {
   }
 
 //v2
-var age = prompt("Enter your age");
 
-function yourAge () {
+
+function yourAge (age) {
   if (age >= 14 && age <= 90) {
      return true;
 } else {
   return false;
 }
 }
-  yourAge();
+  yourAge(12);
