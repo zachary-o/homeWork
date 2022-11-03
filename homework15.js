@@ -6,11 +6,7 @@ let salaries = {
   
   const salaryValues = Object.values(salaries);
   
-  const sum = salaryValues.reduce((accumulator, value) => {
-    return accumulator + value;
-  }, 0);
-  
-  
+  const sum = salaryValues.reduce((accumulator, value) => accumulator + value);
   
   console.log(sum);
   
